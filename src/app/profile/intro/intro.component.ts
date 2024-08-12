@@ -10,7 +10,7 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
 })
 export class IntroComponent implements OnInit {
 
-  cvUrl: any;
+  cvUrl="https://github.com/Cager2808/Resume/blob/main/Resume_Ratik_Singh.pdf";
   
    constructor(private profileService: ProfileService) { }
 

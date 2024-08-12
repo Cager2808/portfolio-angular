@@ -5,11 +5,11 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class SplitPipe implements PipeTransform {
 
-  transform(value: string, ...args: unknown[]): unknown {
+  transform(value: string, ...args: any[]): any{
     if (!value) {
       return;
     }
-    return value.split(",");
+    return value.split(" .");
   }
 
 }

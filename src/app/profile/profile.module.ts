@@ -10,7 +10,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
-import { ReferenceComponent } from './reference/reference.component';
+import { CertificationComponent } from './certification/certification.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectComponent } from './project/project.component';
 import { SplitPipe } from '../pipes/split.pipe';
@@ -39,7 +39,7 @@ import { HttpClient } from '@angular/common/http';
     PortfolioComponent,
     ExperienceComponent,
     EducationComponent,
-    ReferenceComponent,
+    CertificationComponent,
     ContactComponent,
     ProjectComponent,
     SplitPipe

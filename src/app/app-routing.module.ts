@@ -3,10 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
-  {path :'home' , component: ProfileComponent},
-  { path : '', redirectTo: '/home', pathMatch: 'full' },
+  {
+    path: '',
+    component: ProfileComponent
+  }
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
